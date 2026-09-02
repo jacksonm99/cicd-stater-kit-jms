@@ -1,0 +1,12 @@
+name: Start
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ola:
+    name: Ola
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dizer ola
+      - run: echo "Olá Mundo!"
